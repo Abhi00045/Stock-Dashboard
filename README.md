@@ -13,7 +13,7 @@ A responsive, real-time stock tracking dashboard built with HTML, CSS, and JavaS
 
 ## Live Demo
 
-Project Link: [Here]()
+Project Link: [Here](https://stock-dashboard-one.vercel.app/)
 
 ## 🚀 Getting Started
 
