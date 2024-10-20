@@ -23,30 +23,6 @@ Project Link: [Here]()
 - Text editor (VS Code recommended)
 - Alpha Vantage API key (Get one at [Alpha Vantage](https://www.alphavantage.co/support/#api-key))
 
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/praveen00219/stock-dashBoard-js.git
-cd stock-dashboard
-```
-
-2. Open `index.html` and replace the API key:
-
-```javascript
-const API_KEY = "YOUR_API_KEY";
-```
-
-3. Open `index.html` in your browser or use a local development server:
-
-```bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js
-npx http-server
-```
 
 ## 💻 Usage
 
