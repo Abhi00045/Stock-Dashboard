@@ -93,11 +93,11 @@ button:hover {
 }
 
 .positive {
-  color: #10b981;
+  color: #1b825f;
 }
 
 .negative {
-  color: #ef4444;
+  color: #e73333;
 }
 
 @media (max-width: 768px) {
