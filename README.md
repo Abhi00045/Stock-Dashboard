@@ -53,52 +53,7 @@ Project Link: [Here]()
 - **APIs**:
   - Alpha Vantage API for real-time stock data
 
-## 📱 Responsive Design
 
-The dashboard is fully responsive and optimized for:
-
-- Desktop (1200px and above)
-- Tablet (768px to 1199px)
-- Mobile (below 768px)
-
-### Adding More Stocks
-
-Update the `trendingStocks` array in the JavaScript code:
-
-```javascript
-const trendingStocks = [
-  "AAPL",
-  "MSFT",
-  "GOOGL",
-  "AMZN",
-  "META",
-  "TSLA",
-  "NVDA",
-  "JPM",
-  "BAC",
-  "WMT",
-];
-```
-
-## 📝 API Integration
-
-The dashboard uses the Alpha Vantage API for stock data. Key endpoints used:
-
-- Time Series (Daily)
-- Quote Endpoint
-- Search Endpoint
-
-Replace the mock data in `fetchStockData()` with actual API calls:
-
-```javascript
-async function fetchStockData(symbol) {
-  const response = await fetch(
-    `https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=${symbol}&apikey=${API_KEY}`
-  );
-  const data = await response.json();
-  // Process and update dashboard with real data
-}
-```
 
 ## 🤝 Contributing
 
